@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/styles.css">
+  <title>Tomi | CV & Portfolio</title>
+</head>
+<body>
+  <header>
+    <!-- Menuja e navigimit -->
+    <nav>
+      <ul class="menu">
+        <li><a href="#arsimi">Arsimi</a></li>
+        <li><a href="#punet">Përvoja</a></li>
+        <li><a href="#aftesite">Aftësitë</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#kontakt">Kontakt</a></li>
+      </ul>
+    </nav>
+
+    <!-- Rreth Tomit -->
+    <div class="info">
+      <img src="images/tomi1.png" alt="Qenushi Tomi">
+      <h1>CV & Portfolio - Tomi</h1>
+      <p>Unë jam <strong>Tomi</strong>, një <i>zhvillues uebi</i> me përvojë në krijimin e faqeve dinamike dhe projekte kreative.</p>
+      <p>
+        Më poshtë mund të gjeni përmbledhjen time profesionale, arsimin, projektet dhe kontaktet.
+      </p>
+    </div>
+  </header>
+
+  
+  <main>
+    <!-- Arsimi -->
+    <section id="arsimi">
+      <h2>Arsimi</h2>
+      <ul>
+        <li><span class="institucioni">Universiteti i Tiranës</span> &ndash; Shkenca Kompjuterike (2018 - 2021)</li>
+        <ul>
+          <li class="bulletpointHand">Lëndët kryesore: Algoritme, Bazat e të Dhënave, Programim i Avancuar</li>
+          <li class="bulletpointHand">Projekte praktike: <a href="#">Menaxhimi i Bazave të të Dhënave</a>, <a href="#">Uebfaqe Dinamike</a></li>
+        </ul>
+        <li><span class="institucioni">Gjmnazi "Ismail Qemali"</span> (2015 - 2018)</li>
+        <ul>
+          <li class="bulletpointHand">Specializim në Matematikë dhe Fizikë</li>
+        </ul>
+      </ul>
+    </section>
+
+    <!-- Përvoja e punës -->
+    <section id="punet">
+      <h2>Përvoja e Punës</h2>
+      <ol>
+        <li>Zhvillues Uebi &ndash; <span class="institucioni">TechSoft</span></li>
+        <ul>
+          <li class="bulletpointHand">Përgjegjës për faqet e brendshme</li>
+          <li class="bulletpointHand">Krijimi i UI interaktive</li>
+          <li class="bulletpointHand">Implementimi i <span class="gjuheProgramimi javascript">Javascript</span> dhe <span class="gjuheProgramimi css">CSS</span> të avancuar</li>
+          <li class="bulletpointHand">Projekte të realizuara:</li>
+          <ul>
+            <li class="bulletpointHand"><a href="#">E-Commerce Website</a></li>
+            <li class="bulletpointHand"><a href="#">Dashboard për menaxhim</a></li>
+          </ul>
+        </ul>
+        <li>Freelancer</li>
+        <ul>
+          <li class="bulletpointHand">Projekte të ndryshme <span class="gjuheProgramimi html">HTML</span> / <span class="gjuheProgramimi css">CSS</span> / <span class="gjuheProgramimi javascript">Javascript</span></li>
+          <li class="bulletpointHand">Uebfaqe për biznese të vogla: <a href="#">Restorant</a>, <a href="#">Blog Personal</a></li>
+        </ul>
+        <li>Asistent IT &ndash; Shkolla e Mesme</li>
+        <ul>
+          <li class="bulletpointHand">Mbështetje teknike për studentët</li>
+          <li class="bulletpointHand">Krijim i materialeve edukative</li>
+        </ul>
+      </ol>
+    </section>
+
+    <!-- Aftësitë -->
+    <section id="aftesite">
+      <h2>Aftësitë</h2>
+      <ul>
+        <li>Programim: <span class="gjuheProgramimi python">Python</span> , <span class="gjuheProgramimi javascript">JavaScript</span> , <span class="gjuheProgramimi java">Java</span></li>
+        <li><span class="gjuheProgramimi html">HTML5</span> , <span class="gjuheProgramimi css">CSS3</span> , <span class="gjuheProgramimi bootstrap">Bootstrap</span> , Responsive Design</li>
+        <li>Menaxhim Bazash të të Dhënave (<span class="gjuheProgramimi sql">SQL</span> , <span class="gjuheProgramimi sql">MySQL</span>)</li>
+        <li>Version Control me Git dhe GitHub</li>
+        <li>Komunikim i shkëlqyer dhe punë ekipore</li>
+      </ul>
+    </section>
+
+    <!-- Portfolio -->
+    <section id="portfolio">
+      <h2>Portfolio</h2>
+      <ul>
+        <li><a href="https://www.shopify.com">E-commerce Website</a> - Platformë për blerje online</li>
+        <li><a href="https://youtube.com/@programimshqip">Dashboard Analytics</a> - Menaxhimi i të dhënave</li>
+        <li><a href="https://github.com">Blog Personal</a> - Shkrime dhe artikuj</li>
+        <li><a href="https://restaurant.com">Uebfaqe Restaurant</a> - Rezervime dhe menu interaktive</li>
+      </ul>
+    </section>
+
+    <!-- Kontakt -->
+    <section id="kontakt">
+      <h2>Kontakt</h2>
+      <form action="https://www.google.com" method="POST">
+        <label for="emri">Emri:</label>
+        <input type="text" name="emri" placeholder="Shkruani emrin tuaj" id="emri" required>
+
+        <label for="email">Email:</label>
+        <input type="email" name="email" placeholder="email@example.com" id="email" required>
+
+        <label for="subjekti--mesazhit">Subjekti</label>
+        <input type="text" name="subjekti" placeholder="Subjekti i mesazhit" id="subjekti--mesazhit" required>
+
+        <label for="mesazhi">Mesazhi</label>
+        <textarea name="mesazhi" id="mesazhi" rows="5" cols="30">Shkruani mesazhin tuaj</textarea>
+        <input type="submit" value="Dërgo">
+        <input type="reset" value="Pastro">
+      </form>
+    </section>
+  </main>
+
+
+  <footer>
+    <!-- Copyright -->
+    <p>&copy; 2025 Tomi. Të gjitha të drejtat e rezervuara.</p>
+  </footer>
+</body>
+</html>
